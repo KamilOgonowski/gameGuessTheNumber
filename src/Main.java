@@ -1,12 +1,7 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-
-        Game gra = new Game();
-        System.out.println(gra.numberToBeGueseed);
-        gra.play();
-
-
+        Game game = new Game();
+        System.out.println(game.getNumberToBeGueseed());
+        game.play();
     }
 }
